@@ -1,10 +1,11 @@
 import Layout from "@/components/Layout";
+import Script from "next/script";
 export default function About() {
     return (
         <>
             <Layout>
                 <div>
-                    <h1 className="bg-black">About</h1>
+                    <Script src="https://cdn.tailwindcss.com"></Script>
                     <p>About Page</p>
                 </div>
             </Layout>
