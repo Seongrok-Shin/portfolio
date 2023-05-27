@@ -14,7 +14,7 @@ export default function Hero() {
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start p-3" />
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Kia Ora koutou! This is Seongrok Shin.
                 </h1>
-                <p className="mb-8 leading-relaxed">Who has been nearing completion of my Bachelor of Computer and Information Scienece with Softtware development and Data Science @ Auckland University of Technology</p>
+                <p className="mb-8 leading-relaxed">Who has been nearing completion of my Bachelor of Computer and Information Scienece with Software development and Data Science @ Auckland University of Technology</p>
                 <div className="flex justify-center ">
                     <Link href="/Project">
                         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Project</button>
