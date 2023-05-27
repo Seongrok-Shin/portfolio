@@ -4,7 +4,11 @@ import Link from "next/link"
 
 export default function Hero() {
     return (
+
         <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
+            <title>Seongrok Shin Portfolio</title>
+            <meta name="description" content="Seongrok Shin Portfolio" />
+            <link rel="icon" href="/favicon.ico" />
             <div className="lg:max-w-lg  md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <Image className="flex flex-col md:w-1/2 md:pl-12 rounded-md" alt="profile" src="/me.jpg" width={250} height={250} />
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start p-3" />

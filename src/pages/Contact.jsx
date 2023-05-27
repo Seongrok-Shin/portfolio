@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser'
 import { ToastContainer, toast } from 'react-toastify'
 import '../app/global.css'
 const Contact = () => {
+
     const form = useRef()
 
     // send mail
@@ -35,6 +36,9 @@ const Contact = () => {
     }
     return (
         <>
+            <title>Seongrok Shin Portfolio</title>
+            <meta name="description" content="Seongrok Shin Portfolio" />
+            <link rel="icon" href="/favicon.ico" />
             <Layout>
                 <section className="text-gray-600 body-font relative">
                     <form ref={form} onSubmit={onSubmitForm}>
