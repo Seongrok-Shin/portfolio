@@ -4,9 +4,7 @@ import { useState } from "react";
 import {
     Collapse,
     Button,
-    Card,
     Typography,
-    CardBody
 } from "@material-tailwind/react";
 
 export default function ProjectItem() {

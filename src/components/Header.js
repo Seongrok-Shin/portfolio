@@ -1,10 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import Script from "next/script";
+import '../app/global.css'
 export default function Header() {
     return (
         <header className="text-black body-font bg-white">
-            <Script src="https://cdn.tailwindcss.com"></Script>
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 
                 <a href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">

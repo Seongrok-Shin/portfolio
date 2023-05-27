@@ -1,9 +1,8 @@
-import Script from "next/script";
+import '../app/global.css'
 export default function Footer() {
     return (
         <footer className="text-black body-font bg-white">
             <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                <Script src="https://cdn.tailwindcss.com"></Script>
 
                 <p className="text-sm text-black sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2023 Seongrok Shin —
                     <a href="https://www.linkedin.com/in/seongrok-shin-1448961a1/" className="text-black ml-1" rel="noopener noreferrer" target="_blank">@Seongrok Shin</a>
