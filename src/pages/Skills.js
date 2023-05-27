@@ -63,7 +63,7 @@ function Skills() {
                     </div>
                     <SiPython className='p-1 w-10 h-10' />
                     <div className="bg-gray-200 w-20 h-2 mt-2 mb-4 rounded-full">
-                        <div className='bg-blue-500 text-xs leading-none py-1 text-center text-white rounded-full' style={{ width: '85%' }} />
+                        <div className='bg-blue-500 text-xs leading-none py-1 text-center text-white rounded-full' style={{ width: '70%' }} />
                     </div>
                     <FaJava className='p-1 w-10 h-10' />
                     <div className="bg-gray-200 w-20 h-2 mt-2 mb-4 rounded-full">
