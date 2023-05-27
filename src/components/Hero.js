@@ -18,7 +18,7 @@ export default function Hero() {
                     <Link href="/Contact">
                         <button className="ml-4 inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact</button>
                     </Link>
-                    <Link href="https://drive.google.com/file/d/1JHjMkMJQ4L2YqlY9m28Nrip4ptLJtoOZ/view?usp=sharing" target="_blank">
+                    <Link href="https://drive.google.com/file/d/1JJ7nRLXC8hrmzpI5-zgEXPEuBtiH7nci/view?usp=sharing" target="_blank">
                         <button className="ml-4 inline-flex text-white bg-cyan-900 border-0 py-2 px-6 focus:outline-none hover:bg-blue-200 rounded text-lg">Resume</button>
                     </Link>
                 </div>
