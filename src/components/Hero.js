@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="lg:max-w-lg  md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <Image className="flex flex-col md:w-1/2 md:pl-12 rounded-md" alt="profile" src="/me.jpg" width={250} height={250} />
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-10 justify-center sm:justify-start p-3" />
-                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hi dear, this is Seongrok Shin.
+                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Kia Ora koutou! This is Seongrok Shin.
                 </h1>
                 <p className="mb-8 leading-relaxed">Who has been nearing completion of my Bachelor of Computer and Information Scienece with Softtware development and Data Science @ Auckland University of Technology</p>
                 <div className="flex justify-center ">
