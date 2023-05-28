@@ -37,7 +37,7 @@ export default function ProjectItems() {
                         </Link>
                     </React.Fragment>
                 </div>
-                <div className="flex flex-col md:w-1/2 md:pl-12 scroll-container overflow-y-auto rounded-full">
+                <div className="flex flex-col md:w-1/2 md:pl-12 scroll-container overflow-y-auto">
                     <Carousel
                         className="rounded-xl"
                         prevArrow={({ handlePrev }) => (
@@ -63,7 +63,11 @@ export default function ProjectItems() {
                             </IconButton>
                         )}
                     >
-                        <Image src="https://flowbite.com/docs/images/carousel/carousel-3.svg" className="h-96 w-96 rounded-full" alt="project1" width={720} height={720} />
+                        <Image src="/moles1.PNG" alt="catchUPP1" width={538} height={720} />
+                        <Image src="/moles2.PNG" alt="catchUPP2" width={538} height={720} />
+                        <Image src="/moles3.PNG" alt="catchUPP3" width={538} height={720} />
+                        <Image src="/moles4.PNG" alt="catchUPP4" width={538} height={720} />
+                        <Image src="/moles5.PNG" alt="catchUPP5" width={538} height={720} />
                     </Carousel>
                 </div>
             </div>
